@@ -36,7 +36,7 @@ public class TheRiddler {
 			System.out.println("YOUR WRONG!!!");
 		}
 		
-String jfe = JOptionPane.showInputDialog("There was a green house. Inside the green house there was a white house.\\r\\n" + 
+String jfe = JOptionPane.showInputDialog("There was a green house. Inside the green house there was a white house." + 
 		"Inside the white house there was a red house. Inside the red house there were lots of babies. What is it?");
 		
 		if(jfe.equals("watermelon")) {
